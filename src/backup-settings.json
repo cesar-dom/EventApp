@@ -1,0 +1,18 @@
+{
+  "git.autofetch": true,
+  "workbench.editor.enablePreview": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "json.maxItemsComputed": 50000,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": true,
+      "markdown": false
+  },
+  "editor.inlineSuggest.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true
+}
