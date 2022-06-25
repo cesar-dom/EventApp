@@ -92,7 +92,7 @@ export const HeroContainer = styled.div`
 
 export const Page = styled.div`
   min-height: 100vh;
-  background: url('src/assets/images/blur-background.png') center center / cover no-repeat;
+  background: url('https://api-media-develop.s3.amazonaws.com/eventapp/blur-background.png') center center / cover no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;

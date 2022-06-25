@@ -2,6 +2,8 @@ import { useParams } from 'react-router-dom'
 import { Header } from "../../components/Header";
 import { Sidebar } from "../../components/Sidebar";
 import { Video } from "../../components/Video";
+import { Placeholder } from "../../components/Placeholder";
+
 
 import * as S from './style'
 
@@ -13,9 +15,11 @@ export function Activities() {
         <S.Page>
             <Header />
             <S.Main>
+                {/* <Video lessonSlug={slug} /> */}
+
                 {slug
                     ? <Video lessonSlug={slug} />
-                    : <div style={{ flex: 1 }}><h1>Empty Card</h1></div>}
+                    : <Placeholder />}
                 <Sidebar />
             </S.Main>
         </S.Page>

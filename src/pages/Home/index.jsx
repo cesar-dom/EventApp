@@ -75,7 +75,7 @@ export function Home() {
                     </S.Form>
                 </S.FormContainer>
             </S.HeroContainer>
-            <S.MockupImg src="/src/assets/images/code-mockup.png" />
+            <S.MockupImg src="https://api-media-develop.s3.amazonaws.com/eventapp/code-mockup.png" />
         </S.Page>
     )
 }
